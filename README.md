@@ -64,7 +64,7 @@ For example, increasing $\gamma$ from 10 to 1000 reduces the maximum endpoint er
 
 ### Small cut cells
 
-On a six-cell background mesh, vary $\theta$ from 0.001 to 0.999. Compare a fixed absolute penalty of $10^6$ with symmetric Nitsche enforcement, and compute the condition number before and after symmetric diagonal scaling $D^{-1/2}AD^{-1/2}$, where $D=\operatorname{diag}(A)$.
+On a six-cell background mesh, vary $\theta$ from 0.001 to 0.999. Compare a fixed absolute penalty of $10^6$ with symmetric Nitsche enforcement, and compute the condition number before and after symmetric diagonal scaling $D^{-1/2}AD^{-1/2}$, where $D=\mathrm{diag}(A)$.
 
 ![Condition numbers as cut cells shrink](results/cut_conditioning.png)
 
