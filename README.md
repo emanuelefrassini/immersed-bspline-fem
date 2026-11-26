@@ -117,4 +117,4 @@ results/                  # Generated figures and numerical CSV tables
 
 ## Scope
 
-This is a one-dimensional research and educational implementation, not a general-purpose CutFEM or isogeometric analysis library. The mesh has no fully exterior cells, and the solver does not implement ghost penalties, aggregation, or multidimensional geometries. Dense condition-number estimates are intended for small systems only. A natural extension is a two-dimensional immersed Poisson solver with curved boundaries and additional stabilization.
+This is a one-dimensional research and educational implementation. Dense condition-number estimates are intended for small systems only. A natural extension is a two-dimensional immersed Poisson solver with curved boundaries and additional stabilization.
